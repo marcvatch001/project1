@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+body {
+    background-color: black;
+}
+.container {
+    width: 1670px;
+    display: flex;
+}
+
+#header {
+     height: 21%;
+ }
+#header .card {
+    flex-direction: column;
+}
+
+#buttons-container {
+    height: 10%;
+}
+
+#content {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footer {
+    height: 20%;
+    width: 1670px;
+
+}
+
+#footer .card{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    font-size: 3%;
+}
+
+
+.button{
+    width: 400px;
+    height: 75px;
+    border: solid orange 2px;
+    margin: 15px;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button:hover {
+    background-color: orange;
+
+}
+
+.line{
+font-size: 30px;
+}
+
+img
+{
+    cursor: pointer;
+    max-height: 100%;
+}
+
+#download {
+    align-items: center;
+    height: 5%;
+    cursor: pointer;
+
+}
+
+#job {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+
+#menu {
+    display: flex;
+}
+
+.menu-items {
+    border: solid white 2px;
+    width: 335px;
+}
+
+#wrapper {
+    height: 1000px;
+    width: 1500px;
+}
+
+#phone {
+    font-size: 25px;
+}
+ h2 {
+     padding-bottom: 10px;
+     padding-top: 30px;
+
+ }
+
+ #pizzaguy {
+     margin-right: 100px;
+     height: 500px ;
+ }
